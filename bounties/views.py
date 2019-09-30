@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def bounty_list(request):
+    return render(request, 'bounties/bounty_list.html', {})
